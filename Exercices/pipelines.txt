@@ -1,0 +1,17 @@
+Question 1.a - Commandes :
+a) grep '^T' 2016*.ann | wc -l
+b) grep '^T' 2017*.ann  | wc -l
+c) grep '^T' 2018*.ann | wc -l 
+
+Question 1.b - Commandes :
+a) grep 'Location' 2016*.ann | wc -l
+b) grep 'Location' 2017*.ann | wc -l
+c) grep 'Location' 2018*.ann | wc -l
+
+Question 2.a - Commandes :
+a) grep 'Location' 2016*.ann | cut -f 3 | sort | uniq -c | sort -n
+b) grep 'Location' 2017*.ann | cut -f 3 | sort | uniq -c | sort -n
+c) grep 'Location' 2018*.ann | cut -f 3 | sort | uniq -c | sort -n
+
+Question 2.b - Commandes :
+a) grep 'Date' 2016/*.ann 2017/*.ann 2018/*.ann | grep 'novembre' | cut -f 3 | sort | uniq -c | sort -n
